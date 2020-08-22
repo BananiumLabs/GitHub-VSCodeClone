@@ -1,11 +1,11 @@
 {
 "update_url": "https://clients2.google.com/service/update2/crx",
 
-  "name": "GitHub Clone for Visual Studio Code",
+  "name": "Open with Visual Studio Code - Github",
   "short_name": "VSCode-gitclone",
   "description": "Overrides Open in Visual Studio button on GitHub with Open in Visual Studio Code",
-  "version": "1.1.1",
-  "version_name": "1.1.1alpha",
+  "version": "1.1.2",
+  "version_name": "1.1.2alpha",
   "icons": { 
     "16": "icon16.png",
     "48": "icon48.png",
