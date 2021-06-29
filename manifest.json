@@ -4,8 +4,8 @@
   "name": "Open with Visual Studio Code - Github",
   "short_name": "VSCode-gitclone",
   "description": "Overrides Open in Visual Studio button on GitHub with Open in Visual Studio Code",
-  "version": "1.2.0",
-  "version_name": "1.2.0alpha",
+  "version": "1.2.1",
+  "version_name": "1.2.1",
   "icons": { 
     "16": "icon16.png",
     "48": "icon48.png",
@@ -19,10 +19,10 @@
       "all_frames": true
     }
   ],
-  "permissions": [
+  "host_permissions": [
     "https://github.com/*"
   ],
   "author": "Eric Qian",
   "homepage_url": "https://enumc.com",
-  "manifest_version": 2
+  "manifest_version": 3
 }
