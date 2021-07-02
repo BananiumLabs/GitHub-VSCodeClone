@@ -1,8 +1,7 @@
 // LIVE
 
 // document.querySelectorAll("span.d-none.d-md-flex")[1].addEventListener("click", function(){
-
-var checkExist = setInterval(function () {
+function updateBtn() {
     if (document.querySelector('[data-open-app="visual-studio"]') !== null) {
         var vscodeBTN = document.querySelector('[data-open-app="visual-studio"]');
         // var vscodeBTN = document.querySelectorAll('.get-repo-modal')[0].querySelectorAll('.d-flex')[1];
@@ -27,14 +26,9 @@ var checkExist = setInterval(function () {
 
         protocolURL = "vscode://vscode.git/clone?url=" + encodeURI(cloneURL);
         vscodeBTN.href = protocolURL;
-        clearInterval(checkExist);
+        // clearInterval(checkExist);
     }
-}, 100);
+}
 
-
-
-
-
-
-// });
+var checkExist = setInterval(updateBtn, 250);
 
